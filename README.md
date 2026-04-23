@@ -1,6 +1,6 @@
 # CodeAlpha Projects 🚀
 
-A collection of three full-stack web application projects built as part of the CodeAlpha internship program.
+A collection of three full-stack web application projects built as part of internship program.
 
 ---
 
@@ -9,8 +9,7 @@ A collection of three full-stack web application projects built as part of the C
 | # | Project | Description | Stack |
 |---|---|---|---|
 | 1 | [Codealpha_communication](#1-codealpha_communication) | Real-time video communication platform | React, Node.js, WebRTC, Socket.io, MongoDB |
-| 2 | [Codealpha_ecommercestore](#2-codealpha_ecommercestore) | Full-stack toy store e-commerce app | React, Node.js, Express, MySQL |
-| 3 | [Codealpha_social2026](#3-codealpha_social2026) | Lightweight social media platform | Vanilla JS, Node.js, Express, MySQL |
+| 2 | [Codealpha_social2026](#3-codealpha_social2026) | Lightweight social media platform | Vanilla JS, Node.js, Express, MySQL |
 
 ---
 
@@ -35,29 +34,7 @@ A collection of three full-stack web application projects built as part of the C
 
 ---
 
-## 2. Codealpha_ecommercestore
-
-> 📁 `Codealpha_ecommercestore/` — [Full README](./Codealpha_ecommercestore/README.md)
-
-**WonderLand ToyStore** is a full-stack e-commerce application for a toy store with product browsing, a shopping cart, order purchasing, an admin panel, user profiles, and an interactive 3D model viewer.
-
-### Key Features
-- 🛍️ Product browsing with category filtering and keyword search
-- 🛒 Shopping cart with size & quantity per user
-- 💳 Buy Now with stock validation via MySQL transactions
-- 🧑‍💼 Admin dashboard — full CRUD for products & categories
-- 👤 User profile with shipping address management
-- 🧊 Interactive 3D WebGL toy model viewer (React Three Fiber)
-- 🎞️ GSAP page transition animations
-- 🔐 JWT authentication with separate user & admin tables
-
-### Tech Stack
-- **Frontend:** React 19, Vite, Axios, GSAP, React Three Fiber, Three.js, React Slick
-- **Backend:** Node.js, Express, MySQL2, bcrypt, JWT, dotenv
-
----
-
-## 3. Codealpha_social2026
+## 2. Codealpha_social2026
 
 > 📁 `Codealpha_social2026/` — [Full README](./Codealpha_social2026/README.md)
 
@@ -87,11 +64,6 @@ Codealpha_Tasks/
 │   ├── README.md
 │   ├── client/                        # React + Vite frontend
 │   └── server/                        # Node.js + Socket.io backend
-├── Codealpha_ecommercestore/          # WonderLand ToyStore — e-commerce app
-│   ├── README.md
-│   └── ecommerce/
-│       ├── api/                       # Node.js + Express + MySQL backend
-│       └── client/                    # React + Vite frontend
 └── Codealpha_social2026/              # Social 2026 — social media platform
     ├── README.md
     ├── server.js                      # Node.js + Express server
@@ -103,5 +75,5 @@ Codealpha_Tasks/
 ## Common Prerequisites
 
 - **Node.js** v18+
-- **MySQL** (for `Codealpha_ecommercestore` and `Codealpha_social2026`)
+- **MySQL** (for `Codealpha_social2026`)
 - **MongoDB** / MongoDB Atlas (for `Codealpha_communication`)
